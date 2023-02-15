@@ -1,5 +1,5 @@
 import psycopg2
-from config import host, user, password, db_name
+from venv.config import host, user, password, db_name
 
 # conn = psycopg2.connect(
 #     dbname=db_name,
