@@ -80,8 +80,8 @@ try:
     # print("Результат", cursor.fetchall())
 
 
-# except (Exception, Error) as error:
-#     print("Ошибка при работе с PostgreSQL", error)
+except Exception as error:
+    print("Ошибка при работе с PostgreSQL", error)
 finally:
     if connection:
         cursor.close()
